@@ -1,0 +1,53 @@
+{
+  "name": "food-meat-consumption",
+  "title": "Meat Consumption World Wide",
+  "format": "csv",
+  "datapackage_version": "1.0.0",
+  "last_modified": "2017-01-31",
+  "licenses": [{
+    "type": "ODC-PDDL-1.0",
+    "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+  }],
+  "sources": [{
+    "name": "The Organisation for Economic Co-operation and Development (OECD)",
+    "web": "https://data.oecd.org/agroutput/crop-production.htm"
+  }],
+  "resources": [{
+    "path": "data/DP_LIVE_02022017085818390.csv",
+    "schema": {
+      "fields": [{
+        "name": "Location",
+        "description": "Country name",
+        "type": "string"
+      }, {
+        "name": "Indicator",
+        "description": "Crop / Commodity",
+        "type": "string"
+      }, {
+        "name": "Subject",
+        "description": "E.g. Rice",
+        "type": "string"
+      }, {
+        "name": "Measure",
+        "description": "Tonne",
+        "type": "numeric"
+      }, {
+        "name": "Frequency",
+        "description": "",
+        "type": "string"
+      }, {
+        "name": "Time",
+        "description": "Year value",
+        "type": "string"
+      }, {
+        "name": "Value",
+        "description": "Crop production indicator",
+        "type": "numeric"
+      }]
+    }
+  }],
+  "maintainers": [{
+    "name": "School of Data Switzerland",
+    "web": "https://www.schoolofdata.ch/"
+  }]
+}
