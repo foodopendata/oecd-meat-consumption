@@ -1,14 +1,16 @@
 The [Organisation for Economic Co-operation and Development](https://data.oecd.org/) (OECD) collects data about meat consumption, related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. 
 
-This data was used in the publication [OECD-FAO Agricultural Outlook (2016)](http://dx.doi.org/10.1787/19991142). As described by the authors:
+This data was used in the publication [OECD-FAO Agricultural Outlook 2017-2026](http://dx.doi.org/10.1787/agr_outlook-2017-en). As described by the authors:
 
-> Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. Compared to other commodities, meat is characterised by high production costs and high output prices. Meat demand is associated with higher incomes and a shift - due to urbanisation - to food consumption changes that favour increased proteins from animal sources in diets. While the global meat industry provides food and a livelihood for billions of people, it also has significant environmental and health consequences for the planet. This indicator is presented for beef and veal, pig, poultry, and sheep. **Meat consumption is measured in thousand tonnes of carcass weight (except for poultry expressed as ready to cook weight) and in kilograms of retail weight per capita.** Carcass weight to retail weight conversion factors are: 0.7 for beef and veal, 0.78 for pigmeat, and 0.88 for both sheep meat and poultry meat.
+> Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. Compared to other commodities, meat is characterised by high production costs and high output prices. Meat demand is associated with higher incomes and a shift - due to urbanisation - to food consumption changes that favour increased proteins from animal sources in diets. While the global meat industry provides food and a livelihood for billions of people, it also has significant environmental and health consequences for the planet. 
+
+> World meat projections up to 2026 are presented for beef and veal, pig, poultry, and sheep. **Meat consumption is measured in thousand tonnes of carcass weight (except for poultry expressed as ready to cook weight) and in kilograms of retail weight per capita.** Carcass weight to retail weight conversion factors are: 0.7 for beef and veal, 0.78 for pigmeat, and 0.88 for both sheep meat and poultry meat. **Excludes Iceland but includes all EU 28 member countries.**
 
 Sources:
 
 - https://data.oecd.org/agroutput/meat-consumption.htm
 
-OECD (2017), Meat consumption (indicator). doi: 10.1787/fa290fd0-en (Accessed on 02 February 2017)
+OECD/FAO (2017), “OECD-FAO Agricultural Outlook”, OECD Agriculture statistics (database). doi: dx.doi.org/10.1787/agr-outl-data-en (Accessed on 24 January 2018)
 
 ## License
 
