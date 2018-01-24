@@ -1,53 +1,77 @@
 {
-  "name": "food-meat-consumption",
-  "title": "Meat Consumption World Wide",
-  "format": "csv",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2017-01-31",
-  "licenses": [{
-    "type": "ODC-PDDL-1.0",
-    "url": "http://opendatacommons.org/licenses/pddl/1.0/"
-  }],
-  "sources": [{
-    "name": "The Organisation for Economic Co-operation and Development (OECD)",
-    "web": "https://data.oecd.org/agroutput/crop-production.htm"
-  }],
-  "resources": [{
-    "path": "data/DP_LIVE_02022017085818390.csv",
-    "schema": {
-      "fields": [{
-        "name": "Location",
-        "description": "Country name",
-        "type": "string"
-      }, {
-        "name": "Indicator",
-        "description": "Crop / Commodity",
-        "type": "string"
-      }, {
-        "name": "Subject",
-        "description": "E.g. Rice",
-        "type": "string"
-      }, {
-        "name": "Measure",
-        "description": "Tonne",
-        "type": "numeric"
-      }, {
-        "name": "Frequency",
-        "description": "",
-        "type": "string"
-      }, {
-        "name": "Time",
-        "description": "Year value",
-        "type": "string"
-      }, {
-        "name": "Value",
-        "description": "Crop production indicator",
-        "type": "numeric"
-      }]
-    }
-  }],
-  "maintainers": [{
-    "name": "School of Data Switzerland",
-    "web": "https://www.schoolofdata.ch/"
-  }]
+   "name":"food-meat-consumption",
+   "title":"Meat Consumption World Wide",
+   "description":"Meat Consumption estimates 2017-2026 by The Organisation for Economic Co-operation and Development",
+   "homepage":"https://data.oecd.org/agroutput/meat-consumption.htm",
+   "version":"2.0.0",
+   "license":"ODC-PDDL-1.0",
+   "resources":[
+      {
+         "name":"dp_live_24012018122207733",
+         "title":"food meat consumption OECD",
+         "schema":{
+            "fields":[
+               {
+                  "name":"location",
+                  "title":"Location",
+                  "description":"Country name three letter code",
+                  "type":"string",
+                  "format":"default"
+               },
+               {
+                  "name":"indicator",
+                  "title":"Indicator",
+                  "description":"MEATCONSUMP",
+                  "type":"string",
+                  "format":"default"
+               },
+               {
+                  "name":"subject",
+                  "title":"Subject",
+                  "description":"BEEF, PIG, POULTRY, SHEEP",
+                  "type":"string",
+                  "format":"default"
+               },
+               {
+                  "name":"measure",
+                  "title":"Measure",
+                  "description":"KG_CAP",
+                  "type":"string",
+                  "format":"default"
+               },
+               {
+                  "name":"frequency",
+                  "title":"Frequency",
+                  "description":"A",
+                  "type":"string",
+                  "format":"default"
+               },
+               {
+                  "name":"time",
+                  "title":"Time",
+                  "description":"Year",
+                  "type":"integer",
+                  "format":"default"
+               },
+               {
+                  "name":"value",
+                  "title":"Value",
+                  "description":"Meat consumption value (float)",
+                  "type":"number",
+                  "format":"default"
+               },
+               {
+                  "name":"flag_codes",
+                  "title":"Flag Codes",
+                  "type":"any",
+                  "format":"default"
+               }
+            ]
+         },
+         "url":"https://data.oecd.org/agroutput/meat-consumption.htm",
+         "path":"DP_LIVE_24012018122207733.csv",
+         "format":"CSV",
+         "mediatype":"text/csv"
+      }
+   ]
 }
