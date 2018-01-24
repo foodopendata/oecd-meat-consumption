@@ -69,7 +69,7 @@
             ]
          },
          "url":"https://data.oecd.org/agroutput/meat-consumption.htm",
-         "path":"DP_LIVE_24012018122207733.csv",
+         "path":"data/DP_LIVE_24012018122207733.csv",
          "format":"CSV",
          "mediatype":"text/csv"
       }
